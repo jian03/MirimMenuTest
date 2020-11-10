@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="kr.hs.emirim.s2019s19.mirimmenutest.MainActivity">
+    <item
+        android:title="빨간 배경"
+        android:id="@+id/itemRed" />
+    <item
+        android:title="초록 배경"
+        android:id="@+id/itemGreen" />
+    <item
+        android:title="파란 배경"
+        android:id="@+id/itemBlue" />
+    <item
+        android:title="버튼 모양 변경">
+        <menu>
+            <item
+                android:title="45도 회전"
+                android:id="@+id/rotate_45" />
+            <item
+                android:title="2배 확대"
+                android:id="@+id/scale_2"
+                />
+        </menu>
+    </item>
+</menu>
